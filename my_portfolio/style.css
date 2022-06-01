@@ -1,0 +1,115 @@
+﻿*{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    text-align: left;
+    color: white;
+    background-color: #004d80;
+    padding: 40px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .menu_ {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .menu:hover .menu_ {
+  background-color: #4d4d4d;
+}
+
+li.menu {
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.menu-content a:hover {background-color: #f1f1f1;}
+
+.menu:hover .menu-content {
+  display: block;
+}
+
+/*Welcome to my website*/
+h2{
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.round{
+    margin-top: 3em;
+    width: 500px;
+    border: 3px solid #004d80;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+footer {
+    background-color: #004d80;
+    height: 60px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+footer > span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
