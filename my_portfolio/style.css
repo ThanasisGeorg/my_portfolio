@@ -20,13 +20,14 @@ body {
 }
 
 #icon_header {
-  padding: 6px 8px 6px 16px;
+  padding: 0px 0px 0px 0px;
   text-decoration: none;
   font-size: 50px;
   color: #818181;
   display: block;
   transition: 0.4s;
   position: absolute;
+  left: 5%;
 }
 
 #icon_header:hover {
@@ -44,63 +45,67 @@ body {
 }
 
 .menu #home {
-  padding: 6px 8px 6px 16px;
+  padding: 18px 160px 18px 20px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   color: #818181;
   display: block;
   transition: 0.4s;
   position: absolute;
-  bottom: 87%;
+  bottom: 85%;
 }
 
 .menu #home:hover {
-  color: #f1f1f1;
+  background-color: #404040;
+  color: #111;
 }
 
 .menu #projects {
-  padding: 6px 8px 6px 16px;
+  padding: 18px 140px 18px 20px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   color: #818181;
   display: block;
   transition: 0.4s;
   position: absolute;
-  bottom: 82%;
+  bottom: 77.5%;
 }
 
 .menu #projects:hover {
-  color: #f1f1f1;
+  background-color: #404040;
+  color: #111;
 }
 
 .menu #github {
-  padding: 6px 8px 6px 16px;
+  padding: 18px 153px 18px 20px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   color: #818181;
   display: block;
   transition: 0.4s;
   position: absolute;
-  bottom: 77%;
+  bottom: 70%;
 }
 
 .menu #github:hover {
-  color: #f1f1f1;
+  background-color: #404040;
+  color: #111;
 }
 
 .menu #settings {
-  padding: 6px 8px 6px 16px;
+  padding: 18px 140px 18px 20px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  transition: 0.4s;
   position: absolute;
   bottom: 3%
 }
 
 .menu #settings:hover {
-  color: #f1f1f1;
+  background-color: #404040;
+  color: #111;
 }
 
 /*Welcome to my website*/
@@ -136,7 +141,7 @@ main {
 }
 
 footer {
-  margin-left: 160px; /* idio me to sidebar */
+  /*margin-left: 160px;  idio me to sidebar */
   padding: 0px 10px;
   background-color: #004d80;
   height: 60px;
