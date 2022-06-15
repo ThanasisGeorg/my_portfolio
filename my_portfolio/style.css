@@ -43,46 +43,52 @@ body {
   display: block;
 }
 
-#home a{
+.menu #home {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
   color: #818181;
   display: block;
   transition: 0.4s;
+  position: absolute;
+  bottom: 87%;
 }
 
-#home a:hover {
+.menu #home:hover {
   color: #f1f1f1;
 }
 
-#projects a {
+.menu #projects {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
   color: #818181;
   display: block;
   transition: 0.4s;
+  position: absolute;
+  bottom: 82%;
 }
 
-#projects a:hover {
+.menu #projects:hover {
   color: #f1f1f1;
 }
 
-#github a {
+.menu #github {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
   color: #818181;
   display: block;
   transition: 0.4s;
+  position: absolute;
+  bottom: 77%;
 }
 
-#github a:hover {
+.menu #github:hover {
   color: #f1f1f1;
 }
 
-#settings a {
+.menu #settings {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
@@ -93,7 +99,7 @@ body {
   bottom: 3%
 }
 
-#settings a:hover {
+.menu #settings:hover {
   color: #f1f1f1;
 }
 
