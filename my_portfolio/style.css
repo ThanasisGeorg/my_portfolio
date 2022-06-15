@@ -1,21 +1,71 @@
 ﻿*{
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 body{
-    margin: 0;
+  margin: 0;
 }
 
-.header{
-    text-align: left;
-    color: white;
-    background-color: #004d80;
-    padding: 40px;
+/*.header{
+  margin-left: 160px; /* idio me to sidebar
+  text-align: center;
+  color: white;
+  background-color: #004d80;
+  padding: 20px;
 
+}*/
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
 }
 
-ul {
+.sidebar h1{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+/* Style sidebar links */
+.menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #f1f1f1;
+}
+
+.settings a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 3%
+}
+
+.settings a:hover {
+  color: #f1f1f1;
+}
+
+/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -64,52 +114,54 @@ li.menu {
 
 .menu:hover .menu-content {
   display: block;
-}
+}*/
 
 /*Welcome to my website*/
 h2{
-    text-align: center;
-    text-decoration-line: underline;
-    margin: 30px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 30px;
 }
 
 p{
-    text-align: center;
+  text-align: center;
 }
 
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  margin-left: 160px; /* idio me to sidebar */
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .round{
-    margin-top: 3em;
-    width: 500px;
-    border: 3px solid #004d80;
-    border-radius: 8px;
-    padding: 5px;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+  margin-top: 3em;
+  width: 500px;
+  border: 3px solid #004d80;
+  border-radius: 8px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-
-
 footer {
-    background-color: #004d80;
-    height: 60px;
-    margin-top: 50px;
-    text-align: center;
-    color: white;
-    position: relative;
+  margin-left: 160px; /* idio me to sidebar */
+  padding: 0px 10px;
+  background-color: #004d80;
+  height: 60px;
+  margin-top: 96px;
+  text-align: right;
+  color: white;
+  position: relative;
 }
 
 footer > span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
 }
