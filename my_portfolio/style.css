@@ -25,12 +25,12 @@ body {
   font-size: 50px;
   color: #818181;
   display: block;
+  transition: 0.4s;
   position: absolute;
 }
 
 #icon_header:hover {
   text-decoration: none;
-  transition: 0.4s;
   color: #004d80;
 }
 
