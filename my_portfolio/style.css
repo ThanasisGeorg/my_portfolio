@@ -1,115 +1,159 @@
 ﻿*{
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    margin: 0;
-}
-
-.header{
-    text-align: left;
-    color: white;
-    background-color: #004d80;
-    padding: 40px;
-
-}
-
-ul {
-  list-style-type: none;
+body {
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
 }
 
-li {
-  float: left;
-}
-
-li a, .menu_ {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .menu:hover .menu_ {
-  background-color: #4d4d4d;
-}
-
-li.menu {
-  display: inline-block;
-}
-
-.menu-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
   z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
 }
 
-.menu-content a {
-  color: black;
-  padding: 12px 16px;
+#icon_header {
+  padding: 0px 0px 0px 0px;
   text-decoration: none;
+  font-size: 50px;
+  color: #818181;
   display: block;
-  text-align: left;
+  transition: 0.4s;
+  position: absolute;
+  left: 5%;
 }
 
-.menu-content a:hover {background-color: #f1f1f1;}
+#icon_header:hover {
+  text-decoration: none;
+  color: #004d80;
+}
 
-.menu:hover .menu-content {
+.sidebar h1 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  color: #818181;
   display: block;
+}
+
+.menu #home {
+  padding: 18px 160px 18px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.4s;
+  position: absolute;
+  bottom: 85%;
+}
+
+.menu #home:hover {
+  background-color: #404040;
+  color: #111;
+}
+
+.menu #projects {
+  padding: 18px 140px 18px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.4s;
+  position: absolute;
+  bottom: 77.5%;
+}
+
+.menu #projects:hover {
+  background-color: #404040;
+  color: #111;
+}
+
+.menu #github {
+  padding: 18px 153px 18px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.4s;
+  position: absolute;
+  bottom: 70%;
+}
+
+.menu #github:hover {
+  background-color: #404040;
+  color: #111;
+}
+
+.menu #settings {
+  padding: 18px 140px 18px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.4s;
+  position: absolute;
+  bottom: 3%
+}
+
+.menu #settings:hover {
+  background-color: #404040;
+  color: #111;
 }
 
 /*Welcome to my website*/
-h2{
-    text-align: center;
-    text-decoration-line: underline;
-    margin: 30px;
+h2 {
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 30px;
 }
 
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+main {
+  margin-left: 160px; /* idio me to sidebar */
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.round{
-    margin-top: 3em;
-    width: 500px;
-    border: 3px solid #004d80;
-    border-radius: 8px;
-    padding: 5px;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+.round {
+  margin-top: 3em;
+  width: 500px;
+  border: 3px solid #004d80;
+  border-radius: 8px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-
-
 
 footer {
-    background-color: #004d80;
-    height: 60px;
-    margin-top: 50px;
-    text-align: center;
-    color: white;
-    position: relative;
+  /*margin-left: 160px;  idio me to sidebar */
+  padding: 0px 10px;
+  background-color: #004d80;
+  height: 60px;
+  margin-top: 96px;
+  text-align: right;
+  color: white;
+  position: relative;
 }
 
-footer > span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+footer > span {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
 }
