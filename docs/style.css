@@ -1,0 +1,176 @@
+*{
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+#icon_header {
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  left: 7%;
+}
+
+#icon_header:hover {
+  text-decoration: none;
+  color: #004d80;
+}
+
+.sidebar h1 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  position: absolute;
+  right: 12%;
+}
+
+.home a {
+  padding: 20px 250px 34px 29px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 82%;
+}
+
+.home a:hover {
+  background-color: #404040;
+  color: #111;
+}
+
+.projects a {
+  padding: 20px 250px 34px 29px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 74.5%;
+}
+
+.projects a:hover {
+  background-color: #404040;
+  color: #111;
+}
+
+.github a {
+  padding: 20px 250px 34px 29px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 67%;
+}
+
+.github a:hover {
+  background-color: #404040;
+  color: #111;
+}
+
+.settings a {
+  padding: 20px 250px 34px 29px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 1.7%
+}
+
+.settings a:hover {
+  background-color: #404040;
+  color: #111;
+}
+
+.text {
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  top: 34%;
+  left: 34%;
+}
+
+.text:hover {
+  color: #111;
+}
+
+/*Welcome to my website*/
+h2 {
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+main {
+  margin-left: 160px; /* idio me to sidebar */
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.round {
+  margin-top: 3em;
+  width: 500px;
+  border: 3px solid #004d80;
+  border-radius: 8px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  /*margin-left: 160px;  idio me to sidebar */
+  padding: 0px 10px;
+  background-color: #004d80;
+  height: 60px;
+  margin-top: 96px;
+  text-align: right;
+  color: white;
+  position: relative;
+}
+
+footer > span {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
