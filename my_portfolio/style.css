@@ -25,9 +25,9 @@ body {
   font-size: 50px;
   color: #818181;
   display: block;
-  transition: 0.4s;
+  transition: 0.5s;
   position: absolute;
-  left: 5%;
+  left: 7%;
 }
 
 #icon_header:hover {
@@ -38,73 +38,90 @@ body {
 .sidebar h1 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  text-align: center;
+
   font-size: 20px;
   color: #818181;
   display: block;
+  position: absolute;
+  right: 12%;
 }
 
-.menu #home {
-  padding: 18px 160px 18px 20px;
+.home a {
+  padding: 20px 250px 34px 29px;
   text-decoration: none;
   font-size: 18px;
   color: #818181;
   display: block;
-  transition: 0.4s;
+  transition: 0.5s;
   position: absolute;
-  bottom: 85%;
+  bottom: 82%;
 }
 
-.menu #home:hover {
+.home a:hover {
   background-color: #404040;
   color: #111;
 }
 
-.menu #projects {
-  padding: 18px 140px 18px 20px;
+.projects a {
+  padding: 20px 250px 34px 29px;
   text-decoration: none;
   font-size: 18px;
   color: #818181;
   display: block;
-  transition: 0.4s;
+  transition: 0.5s;
   position: absolute;
-  bottom: 77.5%;
+  bottom: 74.5%;
 }
 
-.menu #projects:hover {
+.projects a:hover {
   background-color: #404040;
   color: #111;
 }
 
-.menu #github {
-  padding: 18px 153px 18px 20px;
+.github a {
+  padding: 20px 250px 34px 29px;
   text-decoration: none;
   font-size: 18px;
   color: #818181;
   display: block;
-  transition: 0.4s;
+  transition: 0.5s;
   position: absolute;
-  bottom: 70%;
+  bottom: 67%;
 }
 
-.menu #github:hover {
+.github a:hover {
   background-color: #404040;
   color: #111;
 }
 
-.menu #settings {
-  padding: 18px 140px 18px 20px;
+.settings a {
+  padding: 20px 250px 34px 29px;
   text-decoration: none;
   font-size: 18px;
   color: #818181;
   display: block;
-  transition: 0.4s;
+  transition: 0.5s;
   position: absolute;
-  bottom: 3%
+  bottom: 1.7%
 }
 
-.menu #settings:hover {
+.settings a:hover {
   background-color: #404040;
+  color: #111;
+}
+
+.text {
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  top: 34%;
+  left: 34%;
+}
+
+.text:hover {
   color: #111;
 }
 
