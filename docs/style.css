@@ -20,10 +20,6 @@ body {
   padding-top: 16px;
 }
 
-.sidebar:hover {
-  color: white;
-}
-
 #icon_header {
   padding: 0px 0px 0px 0px;
   text-decoration: none;
@@ -43,14 +39,11 @@ body {
 .sidebar a > h1 {
   padding: 0px;
   text-decoration: none;
-  position: absolute;
-  left: 40%;
-
   font-size: 20px;
   color: #818181;
   display: block;
   position: absolute;
-  right: 12%;
+  left: 40%;
 }
 
 .home a {
