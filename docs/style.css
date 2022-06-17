@@ -20,6 +20,10 @@ body {
   padding-top: 16px;
 }
 
+.sidebar:hover {
+  color: white;
+}
+
 #icon_header {
   padding: 0px 0px 0px 0px;
   text-decoration: none;
@@ -36,9 +40,11 @@ body {
   color: #004d80;
 }
 
-.sidebar h1 {
-  padding: 6px 8px 6px 16px;
+.sidebar a > h1 {
+  padding: 0px;
   text-decoration: none;
+  position: absolute;
+  left: 40%;
 
   font-size: 20px;
   color: #818181;
